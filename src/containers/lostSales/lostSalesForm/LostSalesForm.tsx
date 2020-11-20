@@ -7,7 +7,7 @@ import Input from '@material-ui/core/Input';
 import Select from '@material-ui/core/Select';
 import MenuItem from '@material-ui/core/MenuItem';
 import TextField from '@material-ui/core/TextField';
-import { SalesData } from '../../../models/formInputs-model';
+import { SalesData } from '../../../models/salesData';
 import { useDispatch } from 'react-redux';
 import * as utility from '../../../shared/Utility';
 import { addSalesData } from '../../../store/ducks/salesData';

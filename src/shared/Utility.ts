@@ -1,5 +1,5 @@
 import _ from 'lodash';
-import { SalesData } from '../models/formInputs-model';
+import { SalesData } from '../models/salesData';
 
 export function assignRandomId(salesData: SalesData) {
   return { ['_' + Math.random().toString(36).substr(2, 9)]: salesData };

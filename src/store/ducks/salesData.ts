@@ -1,4 +1,4 @@
-import { SalesData } from '../../models/formInputs-model';
+import { SalesData } from '../../models/salesData';
 import * as utility from '../../shared/Utility';
 
 export const ADD_SALES_DATA = 'salesAnalytics/salesData/add_sales_data';

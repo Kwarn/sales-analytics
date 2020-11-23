@@ -13,6 +13,7 @@ interface Action {
 export default (state = initialState, action: Action) => {
   switch (action.type) {
     case ADD_SALES_DATA:
+      console.log(action.payload);
       return { ...state, ...action.payload };
     default:
       return state;
